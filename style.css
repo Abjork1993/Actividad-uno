@@ -1,0 +1,36 @@
+body,html{
+font-family: Arial, Helvetica, sans-serif;
+height: 100%;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url(fondo.webp) center center;
+background-size: cover;
+}
+.contenedor{
+text-align: center;
+padding: 20px;
+background-color: beige;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.preguntas{
+    display: flex;
+    flex-flow: column;
+}
+.preguntas input, .preguntas
+textarea{
+    margin: .5rem 0;
+    padding: .5rem .2rem;
+    
+    }
+.boton-erdireccion{
+    background-color: crimson;
+    color:white;
+    padding: 10 px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
